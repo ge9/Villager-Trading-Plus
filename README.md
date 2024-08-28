@@ -6,11 +6,11 @@
 
 </center><br>
 
-This mod helps you access containers (Chests, Shulker Boxes, Barrels, etc.) that are marked with a Sign or Item Frame. Right-clicking a sign or item frame that's attached to a container will open the container instead.
+This mod allows for trading with Villagers with just one click. It's great for quickly trading entire double chests of crops to farmers, or Paper to librarians. 
 
-ClickThrough Plus works clientside, and does not need to be installed on the server.
+Villager Trading Plus works clientside, and does not need to be installed on the server.
 
-You can still rotate items in item frames by sneaking and clicking them.
+You can trade normally by sneaking.
 
 ## Installation
 
@@ -21,6 +21,6 @@ ClickThrough Plus is a completely clientside mod for Fabric and NeoForge.
 
 ## Credits
 
-If it's not obvious, this is a port of Giselbaer's ClickThrough to Architectury 1.21, allowing for the mod to be used on both loaders. ClickThrough is available under the [MIT License](https://github.com/gbl/ClickThrough/blob/fabric_1_20/LICENSE).
+If it's not obvious, this is a port of Giselbaer's Easy Villager Trading to Architectury 1.21, allowing for the mod to be used on both loaders. Easy Villager Trading is available under the [MIT License](https://github.com/gbl/EasierVillagerTrading/blob/fabric_1_20/LICENSE).
 
 Mod Menu/Cloth Config integration is based on the integration present in [idwtialsimmoedm](https://modrinth.com/mod/idwtialsimmoedm) under its [MIT License](https://github.com/gliscowo/idwtialsimmoedm/blob/1.21/LICENSE).
