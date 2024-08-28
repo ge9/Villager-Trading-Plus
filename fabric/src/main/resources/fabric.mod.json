@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "clickthrough",
+  "version": "${version}",
+  "name": "Villager Trading Plus",
+  "description": "Trade with Villagers faster - a port of Easier Villager Trading to Architectury.",
+  "authors": [
+    "cassiancc"
+  ],
+  "contributors": [
+    "Giselbaer"
+  ],
+  "contact": {
+  "homepage": "https://modrinth.com/mod/trading+",
+  "sources": "https://github.com/cassiancc/Villager-Trading-Plus",
+  "issues": "https://github.com/cassiancc/Villager-Trading-Plus/issues"
+},
+  "license": "MIT",
+  "icon": "assets/trading/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cc.cassian.trading.client.fabric.VillagerTradingFabric"
+    ],
+    "modmenu": [
+      "cc.cassian.trading.config.fabric.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "villagertrading.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.2",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}

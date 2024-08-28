@@ -1,16 +1,26 @@
-Mod description
-===============
+# Villager Trading Plus
 
-This mod speeds up trading with villagers a lot, by changing the meaning of the buttons in the trade selection GUI:
+<center text-align='center'>
+<a href='https://modrinth.com/mod/clickthrough+/versions?l=fabric'><img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg"></a>
+<a href='https://modrinth.com/mod/clickthrough+/versions?l=neoforge&l=forge'><img alt="forge" height="56" src="https://resources.godsted.com/modrinth/NeoForge2.svg"></a>
 
-- Clicking a trade will execute this trade once (instead of just preparing it)
-- Shift-clicking a trade will execute it as often as possible (until either the villager locks the trade or you run out of trading materials)
-- Ctrl-clicking the trade will prepare, but not execute it (the default behaviour of the selection buttons)
+</center><br>
 
-Older versions of the mod (before MC 1.14) brought their own GUI, as those versions didn't have a quick way to select a trade. With 1.14, this GUI got removed. If you've been using one of the older versions, don't think the new version doesn't work; it just doesn't show the GUI anymore as there's no real reason to have it.
+This mod helps you access containers (Chests, Shulker Boxes, Barrels, etc.) that are marked with a Sign or Item Frame. Right-clicking a sign or item frame that's attached to a container will open the container instead.
 
-The mod generally works with servers as well. If it doesn't with yours, your server owner may have some AntiCheat plugin enabled; there's not much I can do in this case.
+ClickThrough Plus works clientside, and does not need to be installed on the server.
 
-To make sure the mod doesn't slow down your minecraft, 
-it has been optimized using
- [![JProfiler Logo](https://www.ej-technologies.com/images/product_banners/jprofiler_small.png "Logo")](https://www.ej-technologies.com/products/jprofiler/overview.html).
+You can still rotate items in item frames by sneaking and clicking them.
+
+## Installation
+
+ClickThrough Plus is a completely clientside mod for Fabric and NeoForge.
+- On Fabric, [Fabric API](https://modrinth.com/mod/fabric-api) and [Architectury API](https://modrinth.com/mod/architectury-api) is required.
+- On NeoForge, [Architectury API](https://modrinth.com/mod/architectury-api) is required.
+- Mod settings are available with [Mod Menu](https://modrinth.com/mod/mod-menu) (only required on Fabric) and [Cloth Config](https://modrinth.com/mod/cloth-config).
+
+## Credits
+
+If it's not obvious, this is a port of Giselbaer's ClickThrough to Architectury 1.21, allowing for the mod to be used on both loaders. ClickThrough is available under the [MIT License](https://github.com/gbl/ClickThrough/blob/fabric_1_20/LICENSE).
+
+Mod Menu/Cloth Config integration is based on the integration present in [idwtialsimmoedm](https://modrinth.com/mod/idwtialsimmoedm) under its [MIT License](https://github.com/gliscowo/idwtialsimmoedm/blob/1.21/LICENSE).
