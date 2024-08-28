@@ -1,19 +1,19 @@
-package cc.cassian.clickthrough.neoforge;
+package cc.cassian.trading.neoforge;
 
-import cc.cassian.clickthrough.ClickThrough;
-import cc.cassian.clickthrough.config.neoforge.ModConfigFactory;
+import cc.cassian.trading.VillagerTrading;
+import cc.cassian.trading.config.neoforge.ModConfigFactory;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
-import static cc.cassian.clickthrough.helpers.ModHelpers.clothConfigInstalled;
+import static cc.cassian.trading.helpers.ModHelpers.clothConfigInstalled;
 
 
-@Mod(ClickThrough.MOD_ID)
-public final class ClickthroughNeoForge {
-    public ClickthroughNeoForge() {
+@Mod(VillagerTrading.MOD_ID)
+public final class VillagerTradingNeoForge {
+    public VillagerTradingNeoForge() {
         // Run our common setup.
-        ClickThrough.init();
+        VillagerTrading.init();
         registerModsPage();
 
 

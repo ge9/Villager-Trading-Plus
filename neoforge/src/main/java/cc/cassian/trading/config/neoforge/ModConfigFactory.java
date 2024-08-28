@@ -1,7 +1,7 @@
-package cc.cassian.clickthrough.config.neoforge;
+package cc.cassian.trading.config.neoforge;
 
 
-import cc.cassian.clickthrough.config.ClothConfigFactory;
+import cc.cassian.trading.config.ClothConfigFactory;
 import net.minecraft.client.gui.screen.Screen;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;

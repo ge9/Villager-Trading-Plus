@@ -1,4 +1,4 @@
-package cc.cassian.clickthrough.helpers.neoforge;
+package cc.cassian.trading.helpers.neoforge;
 
 import net.neoforged.fml.ModList;
 

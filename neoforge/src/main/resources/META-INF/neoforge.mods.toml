@@ -3,7 +3,7 @@ loaderVersion = "[4,)"
 license = "MIT"
 
 [[mods]]
-modId = "villagertrading"
+modId = "villager_trading_plus"
 version = "${version}"
 displayName = "Villager Trading Plus"
 authors = "cassiancc"
@@ -15,14 +15,14 @@ issueTrackerURL = "https://github.com/cassiancc/Villager-Trading-Plus/issues"
 displayURL="https://modrinth.com/mod/trading+"
 modURL="https://modrinth.com/mod/trading+"
 
-[[dependencies.villagertrading]]
+[[dependencies.villager_trading_plus]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21.0,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.villagertrading]]
+[[dependencies.villager_trading_plus]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21,)"
