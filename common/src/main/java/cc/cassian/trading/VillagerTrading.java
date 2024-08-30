@@ -3,7 +3,6 @@ package cc.cassian.trading;
 import cc.cassian.trading.config.ModConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import net.fabricmc.api.ClientModInitializer;
 
 public class VillagerTrading {
 

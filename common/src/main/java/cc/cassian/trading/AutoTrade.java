@@ -10,5 +10,5 @@ package cc.cassian.trading;
  * @author gbl
  */
 public interface AutoTrade {
-    public void trade(int tradeIndex);
+    void trade(int tradeIndex);
 }

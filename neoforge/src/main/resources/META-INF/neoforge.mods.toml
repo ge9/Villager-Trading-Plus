@@ -29,12 +29,5 @@ versionRange = "[1.21,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.villagertrading]]
-modId = "architectury"
-type = "required"
-versionRange = "[13.0.2,)"
-ordering = "AFTER"
-side = "CLIENT"
-
 [[mixins]]
 config = "villagertrading.mixins.json"

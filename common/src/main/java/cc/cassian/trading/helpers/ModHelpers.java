@@ -27,7 +27,7 @@ public class ModHelpers {
 
     //Automatically generate translation keys for config options.
     public static Text fieldName(Field field) {
-        return Text.translatable("clickthrough.config." + field.getName());
+        return Text.translatable("easiervillagertrading.config." + field.getName());
     }
 
 

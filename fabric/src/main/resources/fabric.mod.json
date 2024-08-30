@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "clickthrough",
+  "id": "villager_trading_plus",
   "version": "${version}",
   "name": "Villager Trading Plus",
   "description": "Trade with Villagers faster - a port of Easier Villager Trading to Architectury.",
@@ -30,10 +30,9 @@
     "villagertrading.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.2",
+    "fabricloader": ">=0.15.7",
     "minecraft": "~1.21",
     "java": ">=21",
-    "architectury": ">=13.0.2",
     "fabric-api": "*"
   },
   "suggests": {

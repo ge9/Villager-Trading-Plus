@@ -7,6 +7,6 @@ import java.nio.file.Path;
 
 public class ModConfigImpl {
     public static Path configPath() {
-        return FabricLoader.getInstance().getConfigDir().resolve("clickthrough.json");
+        return FabricLoader.getInstance().getConfigDir().resolve("villager_trading_plus.json");
     }
 }

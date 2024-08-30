@@ -15,8 +15,8 @@ You can trade normally by sneaking.
 ## Installation
 
 ClickThrough Plus is a completely clientside mod for Fabric and NeoForge.
-- On Fabric, [Fabric API](https://modrinth.com/mod/fabric-api) and [Architectury API](https://modrinth.com/mod/architectury-api) is required.
-- On NeoForge, [Architectury API](https://modrinth.com/mod/architectury-api) is required.
+- On Fabric, [Fabric API](https://modrinth.com/mod/fabric-api) is required.
+- On NeoForge, no dependencies are required.
 - Mod settings are available with [Mod Menu](https://modrinth.com/mod/mod-menu) (only required on Fabric) and [Cloth Config](https://modrinth.com/mod/cloth-config).
 
 ## Credits
