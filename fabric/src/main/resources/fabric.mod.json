@@ -16,7 +16,7 @@
   "issues": "https://github.com/cassiancc/Villager-Trading-Plus/issues"
 },
   "license": "MIT",
-  "icon": "assets/trading/icon.png",
+  "icon": "assets/villagertradingplus/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [

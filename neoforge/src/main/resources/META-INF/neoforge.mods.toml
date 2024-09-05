@@ -10,7 +10,7 @@ authors = "cassiancc"
 description = '''
 Trade with Villagers faster - a port of Easier Villager Trading to Architectury.
 '''
-logoFile = "assets/trading/icon.png"
+logoFile = "assets/villagertradingplus/icon.png"
 issueTrackerURL = "https://github.com/cassiancc/Villager-Trading-Plus/issues"
 displayURL="https://modrinth.com/mod/trading+"
 modURL="https://modrinth.com/mod/trading+"
