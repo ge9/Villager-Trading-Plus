@@ -4,6 +4,7 @@ import cc.cassian.trading.config.ModConfig;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.block.entity.SignBlockEntity;
 import net.minecraft.text.Text;
+import net.minecraft.client.gui.screen.Screen;
 
 import java.lang.reflect.Field;
 import java.util.*;
@@ -50,5 +51,10 @@ public class ModHelpers {
                 throw new RuntimeException(e);
             }
         };
+    }
+
+    @ExpectPlatform
+    public static boolean shouldQuickSwap() {
+        return Screen.hasShiftDown();
     }
 }

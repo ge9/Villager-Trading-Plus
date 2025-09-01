@@ -31,6 +31,7 @@ repositories {
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
     maven { url "https://maven.terraformersmc.com/releases/" }
+	maven { url = 'https://jitpack.io' }
 
 }
 
@@ -50,6 +51,7 @@ dependencies {
         exclude(group: "net.fabricmc.fabric-api")
     }
     modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
+    modCompileOnly("$rebindquickswap_location_fixme")
 }
 
 processResources {
