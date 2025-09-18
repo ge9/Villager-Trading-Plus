@@ -6,6 +6,7 @@
 package cc.cassian.trading;
 
 import cc.cassian.trading.config.ModConfig;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.MerchantScreen;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
@@ -42,7 +43,7 @@ public class BetterGuiMerchant extends MerchantScreen implements AutoTrade {
         &&  hasEnoughItemsInInventory(recipe)
         &&  canReceiveOutput(recipe.getSellItem())) {
             transact(recipe);
-            if (hasShiftDown() == shiftSwapped || ++safeguard > 50) {
+            if (MinecraftClient.getInstance().isShiftPressed() == shiftSwapped || ++safeguard > 50) {
                 break;
             }
         }
