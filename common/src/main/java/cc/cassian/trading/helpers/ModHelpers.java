@@ -3,6 +3,7 @@ package cc.cassian.trading.helpers;
 import cc.cassian.trading.config.ModConfig;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.block.entity.SignBlockEntity;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;
 
 import java.lang.reflect.Field;
@@ -50,5 +51,10 @@ public class ModHelpers {
                 throw new RuntimeException(e);
             }
         };
+    }
+
+    @ExpectPlatform
+    public static boolean shouldQuickSwap() {
+        return MinecraftClient.getInstance().isShiftPressed();
     }
 }
