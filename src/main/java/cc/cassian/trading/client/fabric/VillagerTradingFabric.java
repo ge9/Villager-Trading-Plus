@@ -1,5 +1,5 @@
 //? fabric {
-/*package cc.cassian.trading.client.fabric;
+package cc.cassian.trading.client.fabric;
 
 import cc.cassian.trading.VillagerTrading;
 import net.fabricmc.api.ClientModInitializer;
@@ -13,4 +13,4 @@ public final class VillagerTradingFabric implements ClientModInitializer {
     }
 
 }
-*///?}
+//?}

@@ -10,11 +10,17 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.MerchantScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.inventory.ClickType;
+//? if >26 {
+import static net.minecraft.world.inventory.ContainerInput.*;
+//?} else {
+/*import static net.minecraft.world.inventory.ClickType.*;
+*///?}
 import net.minecraft.world.inventory.MerchantMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.item.trading.MerchantOffers;
+
+
 
 /**
  *
@@ -121,7 +127,7 @@ public class BetterGuiMerchant extends MerchantScreen implements AutoTrade {
         // ScreenHandler checks:
         //    if (actionType == SlotActionType.SWAP && clickData >= 0 && clickData < 9) 
         // so this is a NOP on (a normal) server, but our mixin can watch for it and force an inventory resend.
-        this.slotClicked(null, /* slot*/ 0, /* clickData*/ 99, ClickType.SWAP);
+        this.slotClicked(null, /* slot*/ 0, /* clickData*/ 99, SWAP);
     }
 
     /**
@@ -206,6 +212,6 @@ public class BetterGuiMerchant extends MerchantScreen implements AutoTrade {
     
     private void slotClick(int slot) {
         // System.out.println("Clicking slot "+slot);
-        this.slotClicked(null, slot, 0, ClickType.PICKUP);
+        this.slotClicked(null, slot, 0, PICKUP);
     }
 }
