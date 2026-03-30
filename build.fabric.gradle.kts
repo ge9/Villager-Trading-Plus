@@ -90,6 +90,7 @@ repositories {
             includeGroupAndSubgroups("dev.lambdaurora")
         }
     }
+    maven{url = uri("https://jitpack.io/")}
 }
 
 dependencies {
@@ -122,6 +123,7 @@ dependencies {
     else {
         modCompileOnly("com.terraformersmc:modmenu:15.0.0-beta.3")
     }
+    modCompileOnly("com.github.ge9:RebindQuickSwap:${property("deps.rebindquickswap_version")}")
 }
 
 configurations.all {
