@@ -96,6 +96,7 @@ repositories {
             includeGroupAndSubgroups("fuzs")
         }
     }
+    maven{url = uri("https://jitpack.io/")}
 }
 
 dependencies {
@@ -108,7 +109,7 @@ dependencies {
     include("folk.sisby:kaleido-config:${property("deps.kaleido")}")
 
     compileOnly("me.shedaniel.cloth:cloth-config-neoforge:19.0.147")
-
+    compileOnly("com.github.ge9:RebindQuickSwap:${property("deps.rebindquickswap_version")}")
 }
 
 configurations.all {
@@ -143,8 +144,8 @@ loom.runs.named("server") {
 
 java {
     withSourcesJar()
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
 }
 
 val additionalVersionsStr = findProperty("publish.additionalVersions") as String?
